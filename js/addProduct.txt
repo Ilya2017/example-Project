@@ -1,4 +1,10 @@
 class AddProduct 
 {
 
+var a;
+
+int getA() {
+	return a;
+}
+
 }
