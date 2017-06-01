@@ -1,1 +1,1 @@
-newMethod text
+new text
