@@ -4,5 +4,4 @@ class A {
  int getA() {
 	return a;
 }
-asdsadad
 }
