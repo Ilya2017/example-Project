@@ -1,0 +1,12 @@
+class User {
+ string name;
+int age;
+
+<<<<<<< .merge_file_a04424
+bool deleteUser(int id) {
+
+}
+=======
+User GetAllUser() {}
+>>>>>>> .merge_file_a08808
+}

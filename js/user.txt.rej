@@ -1,0 +1,9 @@
+diff a/js/user.txt b/js/user.txt	(rejected hunks)
+@@ -1,4 +1,6 @@
+ class User {
+  string name;
+ int age;
++
++User GetAllUser() {}
+ }
+\ No newline at end of file

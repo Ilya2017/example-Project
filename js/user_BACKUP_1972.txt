@@ -1,0 +1,12 @@
+class User {
+ string name;
+int age;
+
+<<<<<<< HEAD
+bool deleteUser(int id) {
+
+}
+=======
+User GetAllUser() {}
+>>>>>>> master
+}
