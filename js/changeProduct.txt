@@ -2,3 +2,5 @@ bool changeProduct(int id)
 {
 return true;
 }
+
+var res;
