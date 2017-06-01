@@ -1,4 +1,6 @@
 this first class
 class A {
-
+int checkUsers() {
+	return user.id;
+}
 }
