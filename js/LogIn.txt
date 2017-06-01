@@ -4,8 +4,4 @@ class A {
  int getA() {
 	return a;
 }
-
-void setA(a) {
-	this.a=a;
-}	
 }
