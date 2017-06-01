@@ -4,3 +4,5 @@ return true;
 }
 
 var res;
+
+int id;
