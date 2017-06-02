@@ -8,4 +8,6 @@ bool deleteUser(int id) {
 }
 
 setUser(User u) 
-{}
+{
+	name=e.name;
+}
