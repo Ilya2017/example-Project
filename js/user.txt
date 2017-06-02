@@ -13,4 +13,6 @@ this.name=u.name;
 this.age=u.age;
 }
 
+public string Name {get; set;}
+
 }
