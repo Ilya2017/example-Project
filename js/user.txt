@@ -1,6 +1,7 @@
 class User {
  string name;
 int age;
+string city;
 
 bool deleteUser(int id) {
 
@@ -12,6 +13,8 @@ setUser(User u)
 this.name=u.name;
 this.age=u.age;
 }
+
+public string City{get; set;}
 
 public string Name {get; set;}
 
