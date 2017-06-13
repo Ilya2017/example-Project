@@ -1,0 +1,10 @@
+.edit {
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.array {
+    clear: left;
+}
