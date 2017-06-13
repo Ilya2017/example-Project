@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Knockout</title>
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <script src="js/lib/jquery-1.9.1.min.js"></script>
+        <script src="js/lib/knockout-2.2.1.js"></script>        
+    </head>
+    <body>
+        
+       
+    
+<!--
+<form id='form'data-bind='submit:save'>
+
+    <div class="edit"> 
+        <h2>Содание нового пользователя</h2> 
+
+        <p>Имя: <input type="text" data-bind="value:firstName"></p>
+        <p>Фамилия: <input type="text" data-bind="value:lastName"></p>
+        <p>Возраст: <input type="text" data-bind="value:age"></p>
+        <p>Пол: <select data-bind="options: sexOptions,
+            optionsCaption: 'Не выбрано',
+            value: sex,
+            valueAllowUnset: true">
+            </select>
+        </p>
+        <p>Доступ к администрированию<input type="checkbox" data-bind="checked:isAdmin"></p>
+        <div data-bind='visible:isAdmin'>
+            <p>Администратор статей<input data-bind='checked:adminName' value='Администратор статей' name='kindOfAdmin' type="radio" checked></p>
+             <p>Администратор разделов<input data-bind='checked:adminName' value="Администратор разделов" name='kindOfAdmin' type="radio"></p>
+              <p>Супер администратор<input data-bind='checked:adminName' value="Супер администратор" name='kindOfAdmin' type="radio"></p>
+        </div>
+        <button data-bind='visible:notEmpty, click:reset'>Очистить информацию</button>
+    </div>
+    <div class="edit">
+        <h3>Новый пользователь</h3>
+        <p>Полное имя: <span data-bind="text:fullName"></span></p>
+        <p data-bind='visible:isAdmin'>Администратор (<span data-bind='text:adminName'></span>)</p>
+        <p>Возраст: <span data-bind="text:age"></span></p>
+        <p>Пол: <span data-bind="text:sex"></span></p>
+        <button type="submit">Отправить</button>
+    </div>
+</form>-->
+
+<!--
+<div class='array'>
+    <p> Выведем заголовки новостей</p>
+    <ul id='list' data-bind='foreach: newsHeaders'>
+        <li data-bind='text: $data'></li>
+    </ul>
+<form action="#" data-bind="with: addNewsControl">
+    <p>Заголовок<input type="text" data-bind="value: newTitle"></p>
+    <p>Текст<input type="text" data-bind="value: newText"></p>
+    <p>Признак новизны<input type="checkbox" data-bind="checked: newIsNew"></p>
+    <button data-bind='click: addItem'>Добавить</button>
+    <button data-bind='click: removeAll'>Удалить все</button>
+</form>
+<p>Выведем новости целиком</p>
+    <ul id='list' data-bind="template: {name: 'news-template', foreach: news, as:'teaser'}">
+       
+    </ul>
+</div>
+
+       
+
+    </body>
+    <script type="text/html" id="news-template">
+         <li>
+            <!-- ko if: teaser.isNew ->
+            <p>Новое</p>
+            <!-- /ko ->
+            <h2 data-bind="text: teaser.title"></h2>
+            <p data-bind='text: teaser.text'></p> 
+            <a href='#'data-index="$index" data-bind='click: $root.removeItem'>Удалить</a>
+            <hr>
+        </li>
+    </script>-->
+
+    <script src="js/form.js"></script>
+    <script src="js/array.js"></script>
+    <script src='js/main.js'></script>
+   
+</html>
